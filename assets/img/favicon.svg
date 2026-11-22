@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8c6516"/>
+      <stop offset=".45" stop-color="#e9cc7a"/>
+      <stop offset="1" stop-color="#a37a22"/>
+    </linearGradient>
+    <clipPath id="ci"><rect x="14" y="6" width="58" height="86"/></clipPath>
+    <clipPath id="co"><path clip-rule="evenodd" d="M0 0H120V120H0Z M14 6V92H72V6Z"/></clipPath>
+  </defs>
+  <rect width="120" height="120" rx="22" fill="#fff"/>
+  <rect x="14" y="6" width="58" height="86" fill="url(#g)"/>
+  <rect x="44" y="24" width="62" height="90" fill="none" stroke="url(#g)" stroke-width="3"/>
+  <text x="25" y="77" font-family="Georgia, serif" font-size="66" font-weight="700" fill="#fff">L</text>
+  <g clip-path="url(#ci)"><text x="50" y="99" font-family="Georgia, serif" font-size="66" font-weight="700" fill="#fff">C</text></g>
+  <g clip-path="url(#co)"><text x="50" y="99" font-family="Georgia, serif" font-size="66" font-weight="700" fill="#16130e">C</text></g>
+</svg>
