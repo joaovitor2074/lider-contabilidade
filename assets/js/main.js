@@ -8,7 +8,7 @@
   const CONFIG = {
     // WhatsApp com DDI + DDD + número, só dígitos. Ex.: '5598912345678'.
     // Enquanto estiver vazio, os botões de contato abrem o Direct do Instagram.
-    whatsapp: '',
+    whatsapp: '5599981889169',
     instagram: 'lidercontabilidade',
     defaultMessage: 'Olá! Vim pelo site da Líder Contabilidade e gostaria de mais informações.',
   };

@@ -26,13 +26,14 @@ No topo de `assets/js/main.js`:
 
 ```js
 const CONFIG = {
-  whatsapp: '',              // ex.: '5598912345678' (DDI + DDD + número)
+  whatsapp: '5599981889169', // DDI + DDD + número, só dígitos
   instagram: 'lidercontabilidade',
 };
 ```
 
-Enquanto `whatsapp` estiver vazio, todos os botões de contato abrem o Direct do Instagram.
-Ao preencher o número, eles passam a abrir o WhatsApp com mensagem pronta (e o formulário envia nome, telefone e assunto).
+Os botões de contato abrem o WhatsApp com mensagem pronta, e o formulário envia nome, telefone, assunto e mensagem.
+Se `whatsapp` ficar vazio, os botões passam a abrir o Direct do Instagram.
+O número exibido na seção de contato e no rodapé fica no `index.html` (busque por `98188-9169`).
 
 ## Textos de demonstração
 
